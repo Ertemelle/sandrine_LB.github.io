@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html
+{
+	background-color: #fefefe
+}
+
+body
+{
+	font-family: Roboto, Arial, Helvetica;
+	color: #215C73;
+	font-size: 16px
+	margin-top: 40px auto;
+	margin: 40px auto;
+	max-width: 650px;
+	padding: 300px;
+	line-height:1.4;
+	text-align:justify
+
+}
+a:visited
+	{
+		color:#833F73;
+}
+
+a
+{
+	color: #DC81A1;
+}
+div.fancyPositioning div.picture-left
+	{
+		float:left;
+		width:40%;
+		overflow:hidden;
+		margin-right:1em
+}
+div.fancyPositioning div.picture-left img
+	{
+		width:100%
+}
+div.fancyPositioning div.picture-left p.caption
+	{
+		font-size:.7em
+}
+a.kopimi,a.kopimi img.kopimi
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto
+}
+a.kopimi img.kopimi
+	{
+		height:2em
+}
+small
+	{
+		font-size:.4em
+}
+
+span.foufivfoufivfoufiv
+	{
+		color:#454545;
+		font-weight:700
+}
+span.foufivfoufivfoufiv:before
+	{
+		content:"";
+		display:inline-block;
+		width:1em;
+		height:1em;
+		margin-left:.2em;
+		margin-right:.2em;
+		background-color:#454545
+}
+span.foufoufou
+	{
+		color:#444;
+		font-weight:700
+}
+span.foufoufou:before
+	{
+		content:"";
+		display:inline-block;
+		width:1em;
+		height:1em;
+		margin-left:.2em;
+		margin-right:.2em;
+		background-color:#444
+}
